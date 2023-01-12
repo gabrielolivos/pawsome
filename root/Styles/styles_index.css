@@ -1,0 +1,139 @@
+*{
+    padding : 0;
+    margin : 0;
+    
+    
+    }
+
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    width: 400px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 30px;
+}
+
+@media (max-width: 430px) {
+    /*iphone*/
+
+    *{
+        padding : 0;
+        margin : 0;
+        
+        
+        }
+
+        body{
+            width:428px;
+            height: 926px;
+            background: linear-gradient(348.25deg, rgba(96, 189, 175, 0.65) 15.68%, rgba(237, 252, 194, 0.65) 49.43%, rgba(251, 46, 115, 0.65) 83.62%);
+            background-blend-mode: darken;
+
+    
+    }
+
+        
+        .header img {
+            position: absolute;
+            left: 89px;
+            top: 128px;
+            width: 255px;
+            height: 220px;
+
+        }
+
+        .main {
+            position: absolute;
+            width: 336px;
+            height: 315px;
+            left: 47px;
+            top: 390px;
+        }
+
+        .login{
+            display:flex;
+            flex-direction: column;
+            gap: 53px
+        }
+        
+        input {
+            width: 333px;
+            height: 57px;
+            background: #FFFFFF;
+            border: 1px solid #551177;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 30px;
+        }
+
+        .inputs{
+            display:flex;
+            flex-direction: column;
+            gap: 15px
+
+        }
+
+        button {
+            width: 333px;
+            height: 57px;
+            background: #455655;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 30px;
+        }
+
+        .show {
+        position: absolute;
+        width: 117px;
+        height: 46px;
+        left: 204px;
+        top: 80px;
+        background: #455655;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;    
+        }
+
+        .botones {
+            padding-top: 10px;
+            width: 336px;
+            height: 131px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px
+        }
+
+        .footer{
+            position: absolute;
+            width: 290px;
+            height: 118px;
+            left: 20px;
+            top: 350px;
+            display: flex;
+            flex-direction: column;
+            gap:45px
+
+        }
+
+        .icono {
+            width: 58px;
+            height: 51px;
+        }
+
+        .redes{
+            display: flex;
+            flex-direction: row;
+            gap:72px
+        }
+
+}
