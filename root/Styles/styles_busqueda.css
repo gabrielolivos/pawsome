@@ -90,8 +90,14 @@
     #foto-grande{
         width: 257px;
         height: 257px;
+        padding-top:10px;
+        padding-right: 8px;
     }
 
+    #divparticular{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
