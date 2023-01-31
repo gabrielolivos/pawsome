@@ -168,7 +168,7 @@
         }
 
 
-        .ear1 {
+        #ear1 {
             margin:0px;
             padding:0px;
             position: absolute;
@@ -179,7 +179,7 @@
             height: 90px;
         }
 
-        .ear2 {
+        #ear2 {
             margin:0px;
             padding:0px;
             position: absolute;
@@ -194,5 +194,37 @@
             font-size:13px;
             font-style: italic;
         }
+        
+        #leftPaw{
+            width: 75px;
+            height: 48px;
+            position: absolute;
+            top: 360px;
+            left: 75px;
+            z-index: 2;
+            animation: passwordAnimationLeft 2s infinite;
+        
 
+        }
+
+        #rightPaw{
+            width: 75px;
+            height: 48px;
+            position: absolute;
+            top: 360px;
+            left: 278px;
+            z-index: 2;
+            animation: passwordAnimationRight 2s infinite;
+
+        }
+
+        @keyframes passwordAnimationLeft {
+            0%{opacity:100%}
+            100% {transform:translate(140px, -66px);rotate:-60deg;transform-origin: left; scale:1.2}
+        }
+
+        @keyframes passwordAnimationRight {
+            0%{opacity:100%}
+            100% {transform:translate(-140px, -66px);rotate:60deg;transform-origin: right;scale: 1.2;}
+        }
 }
